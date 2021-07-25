@@ -1,0 +1,33 @@
+@media (max-width:1100px){
+    .navbar{
+        display: none;
+    }
+    .leftbox{
+        display: none;
+    }
+    .rightbox{
+        margin-top: 6.5%;
+        margin-left:25%;
+    }
+    .toggle-button{
+        display: block;
+    }
+    .navbar.active{
+        display: block;
+    }
+}
+@media(max-width:800px){
+    .toggle-button{
+        display: none;
+    }
+    .navbar.active{
+        display: none;
+    }
+    .rightbox{
+        display: none;
+    }
+    .logosmove{
+        left:25%;
+        right:50%;
+    }
+}

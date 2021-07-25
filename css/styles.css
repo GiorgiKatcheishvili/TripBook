@@ -1,0 +1,267 @@
+html, body {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+}
+.bgim{
+    height: 100%;
+    background-image: url(../image/Mask\ Group\ 99.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+/* NAVIGATION<<<<<<<<<<<< */
+
+.wholenav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    width: 100%;
+}
+.logosmove{
+    position:relative;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top:40px;
+    font: normal 35px 'Josefin Sans';
+    color: white;
+    padding: 3.4% 0 0 5%;
+    text-transform: uppercase;
+    vertical-align: center;
+}
+.logo img{
+    margin-right: 10px;
+}
+.logo span{
+    padding-top: 10px;
+}
+.navdiv{
+    padding-right: 10%;
+    padding-top: 1%;
+}
+.navbar{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    padding: 4.4% 10% 0 0;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li a {
+    font: normal 16px 'josefin Sans';
+    color: white;
+}
+.navbar ul li:nth-child(1):hover{
+    font-size: 20px;
+    opacity: 0.5;
+}
+.navbar ul li:nth-child(2):hover{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.toggle-button{
+    font-size: 30px;
+    color: white;
+    display: none;
+    position: absolute;
+    left: 95%;
+}
+.subdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    height: 55px;
+}
+.subdiv2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 110px;
+    height: 50px;
+    margin-left: 20px;
+}
+/* >>>>>>>>CONETNT<<<<<<<<< */
+.leftbox{
+    max-width: 520px;
+    width: 100%;
+    font: lighter 100px 'josefin Sans';
+    margin: 0 0 0 5%;
+    color:white;
+    letter-spacing: -3px;
+    line-height: 110px;
+    text-align: center;
+}
+.applay{
+    display: flex;
+    align-items: center;
+}
+.wholecontent{
+    margin-top: 4%;
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.phoneframe img{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 25px;
+    max-width: 200px;
+    width: 100%;
+    max-height: 410px;
+    height: 100%;
+    margin-right: 50px;
+}
+.rightbox{
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+
+}
+.phonepart{
+    position: absolute;
+    left: 50px;
+    max-width: 100px;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    border-radius:0 0 10px 10px;
+}
+.rightbox h3{
+    font: bold 27px 'josefin Sans';
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 38px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    left: 15px
+}
+.email{
+    max-width: 180px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    
+}
+.email:focus{
+    outline: none;
+}
+.password{
+    max-width: 180px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+.button{
+    max-width: 180px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #27BC93;
+    margin-top: 10px;
+}
+.orsign{
+    display: flex;
+    position: absolute;
+    top:275px;
+    max-width: 160px;
+    width: 100%;
+    height: 1px;
+    margin-left: 23px;
+}
+.line{
+    margin-top: 5px;
+    max-width: 40px;
+    width: 100%;
+    background-color: rgb(199, 197, 197);
+    height: 1px;
+}
+.orsign div p{
+    font-size: 11px;
+    color: rgb(199, 197, 197);
+    margin: 0 3px 0 3px;
+}
+.but{
+    text-align: center;
+    max-width: 180px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: #27BC93;
+}
+.gotoFBGOGL{
+    width: 200px;
+    position: absolute;
+    top: 300px;
+    left: 2%;
+    right: 2%
+}
+.phoneframe1{
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 25px;
+    max-width: 200px;
+    width: 100%;
+    max-height: 409px;
+    height: 100%;
+    margin-left:0;
+}
+.phoneframe1 img{
+    max-width: 200px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    height: 95px;
+}
+.phonepart1{
+    position: absolute;
+    left: 50px;
+    max-width: 100px;
+    width: 100%;
+    height: 18px;
+    background-color: black;
+    border-radius:0 0 10px 10px;
+}
+.table{
+    background-color: rgb(82, 82, 82);
+    max-width: 200px;
+    width: 100%;
+    height: 305.5px;
+    border-radius: 0 0 25px 25px;
+}
+.tabs{
+    max-width:200px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(192, 186, 186);
+    font: normal 15px 'josefin Sans';
+    box-shadow: 0px 5px;
+    margin: 0px 0 5px 0;
+}
