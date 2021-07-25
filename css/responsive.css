@@ -33,4 +33,11 @@
         margin-top:-280px;
         margin-left:-129px;
     }
+    .bgim{
+        background-position: left;
+    }
+    .resp800{
+        display: block;
+        margin: 30% auto;
+    }
 }
