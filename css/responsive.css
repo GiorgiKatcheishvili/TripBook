@@ -40,4 +40,7 @@
         display: block;
         margin: 30% auto;
     }
+    body{
+        overflow-y: hidden;
+    }
 }
