@@ -20,7 +20,7 @@ html, body {
     width: 100%;
 }
 .logosmove{
-    position:relative;
+    position: relative;
 }
 .logo{
     display: flex;
