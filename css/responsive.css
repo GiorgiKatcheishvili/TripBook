@@ -16,6 +16,13 @@
         display: block;
     }
 }
+@media(max-width:900px){
+    .signinbox{
+        position: relative;
+        right: 100px;
+        top:50px
+    }
+}
 @media(max-width:800px){
     .toggle-button{
         display: none;
@@ -38,9 +45,24 @@
     }
     .resp800{
         display: block;
-        margin: 30% auto;
+        margin: 40% auto;
     }
     body{
         overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+@media(max-width:400px){
+    .button1{
+        margin-left: 10%;
+        max-width: 80%;
+    }
+    .resp800{
+        margin: 60% auto;
+    }
+}
+@media(max-width:290px){
+    .lineflex p{
+        font-size: 10px;
     }
 }
