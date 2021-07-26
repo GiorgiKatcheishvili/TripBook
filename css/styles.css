@@ -92,6 +92,9 @@ html, body {
     height: 50px;
     margin-left: 20px;
 }
+.subdiv2:hover{
+    opacity: 0.5;
+}
 /* >>>>>>>>CONETNT<<<<<<<<< */
 .leftbox{
     max-width: 520px;
@@ -344,3 +347,71 @@ html, body {
     background-color: #27BC93;
     margin-top: 10px;
 }
+/* >>>>>>>>>> MY TRIPS <<<<<<<<<<<<<< */
+.booknav img{
+    padding-left: 2%;
+}
+.booknav{
+    max-width: 1920px;
+    width: 100%;
+    background-color: #27BC93;
+}
+.bookli ul{
+    margin-top: 3.5%;
+    padding-bottom: 0.404%;
+    padding-left: 2%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.bookli ul li a{
+    text-transform: uppercase;
+    color: white;
+}
+.tripbookcontent{
+    position: relative;
+}
+.bookpage{
+    box-shadow: 0 5px;
+}
+.triptable{
+    padding: 0 5% 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px;
+    color: gray;
+    width: 40%;
+    height: 100px;
+    margin-top: 1%;
+}
+.righttriptable{
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    top: 1%;
+    padding: 2%;
+}
+.righttriptable div h3{
+    font-size: 40px;
+    color: gray;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.righttriptable div h4{
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+.righttriptable div p{
+    font-size: 25px;
+    color: rgb(100, 99, 99);
+}
+.righttriptable div p i{
+    margin-right: 3%;
+    font-size: 25px;
+    color: yellowgreen;
+}
+
+/* >>>>>>>>>>>>>>> TRANFSER <<<<<<<<<<<<<< */

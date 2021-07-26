@@ -52,9 +52,9 @@
         overflow-x: hidden;
     }
 }
-@media(max-height:450px){
+@media(max-height:600px){
     .signinbox{
-        margin-bottom: 200px;
+        margin: auto;
     }
 }
 @media(max-width:400px){
