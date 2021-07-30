@@ -66,8 +66,11 @@
         margin: 60% auto;
     }
 }
-@media(max-width:290px){
+@media(max-width:350px){
+    .signinbox{
+        margin-left: 20%;
+    }
     .lineflex p{
-        font-size: 10px;
+        font-size: 9px;
     }
 }

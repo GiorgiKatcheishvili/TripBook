@@ -14,13 +14,27 @@
 </head>
 <body>
         <div class="booknav">
-            <img src="image/logoi.svg" alt="logo">
+            <a href="index.html"><img class="log1" src="image/logoi.svg" alt="logo"></a>
             <nav class="bookli">
                 <ul>
-                    <li><a href="mytrips.html">my trips</a></li>
-                    <li><a href="transfer.html"><div class="bookpage">Tranfser</div></a></li>
+                    <li><a href="mytrips.html"><div class="bookpage">my trips</div></a></li>
+                    <li><a href="transfer.html">Tranfser</a></li>
                     <li><a href="">Forum</a></li>
                     <li><a href="">Discover</a></li>
                 </ul>
             </nav>
         </div>
+        <section>
+            <div>
+                <form class="search" action="/action_page.php">
+                    <input class="serchbox" type="text" placeholder="From" name="search">
+                    <input class="serchbox" type="text" placeholder="To" name="search">
+                    <input class="serchbox1" type="date" id="start" name="trip-start" value="" min="2018-01-01" max="2060-12-31">
+                    <input class="serchbox1" type="text" placeholder="Search.." name="search">
+                    <p>Passengers</p><input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Search</button>
+                  </form>
+            </div>
+        </section>
+</body>
+</html>
