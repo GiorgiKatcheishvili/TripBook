@@ -384,7 +384,7 @@ html, body {
 }
 .bookli ul{
     margin-top: 3.5%;
-    padding-bottom: 0.404%;
+    padding-bottom: .404%;
     padding-left: 2%;
     width: 40%;
     display: flex;
@@ -493,8 +493,14 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     max-width: 550px;
+    height: 350px;
     width: 100%;
+    margin: 8% 0 0 5%;
     justify-content: space-between;
+}
+.ss:focus{
+    outline: none;
+    outline-color:#27BC93;
 }
 .serchbox{
     max-width: 550px;
@@ -505,4 +511,68 @@ html, body {
     max-width: 250px;
     width: 100%;
     height: 65px;
+}
+.serchbox2{
+    margin-right: 400px;
+    height: 15%;
+    text-align: center;
+}
+.messenger{
+    padding: 2% 0 0% 9%;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+.serchbox3{
+    color: white;
+    background-color: #3F3F3F;
+    max-width: 550px;
+    width: 100%;
+    height: 18%;
+}
+.transfersdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.transferimage{
+    max-width: 550px;
+    width: 100%;
+    height: 370px;
+}
+.transferdiv{
+    margin: 7%;
+}
+.forum{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    margin: 5% 0 0 5%
+}
+.forumshearch{
+    max-width: 500px;
+    width: 100%;
+    height: 65px;
+    background-color: #EBEBEB;
+    border:none;
+    text-indent: 50px;
+    font-size: 25px;
+}
+.forumshearch:focus{
+    outline: none;
+}
+.searchbuton{
+    color:white;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 0 0 4%;
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+    background-color: #3F3F3F;
+}
+.fa{
+    position: relative;
+    bottom:52px;
+    left: 10px;
+    font-size: 30px;
 }
