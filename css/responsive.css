@@ -5,6 +5,9 @@
     .leftbox{
         display: none;
     }
+    .bookli{
+        display: none;
+    }
     .rightbox{
         margin-top: 6.5%;
         margin-left:25%;
@@ -15,6 +18,12 @@
     .navbar.active{
         display: block;
     }
+    .bookli.active{
+        display: block;
+    }
+    .booknav{
+        height: 20%;
+    }
 }
 @media(max-width:900px){
     .signinbox{
@@ -24,9 +33,6 @@
     }
 }
 @media(max-width:800px){
-    .toggle-button{
-        display: none;
-    }
     .navbar.active{
         display: none;
     }
