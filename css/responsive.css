@@ -19,6 +19,7 @@
         display: block;
     }
     .bookli.active{
+        margin-top: 6%;
         display: block;
     }
     .booknav{
@@ -28,9 +29,23 @@
         flex-direction: column;
         background-color: #27BC93;
         height: 300px;
-        margin-left:80%;
+        margin-left:70%;
+        margin-right: 100%;
         z-index: 20;
         position: relative;
+    }
+    .address{
+        width: 100%;
+    }
+    .transfersdiv{
+        flex-direction: column;
+        margin-right: 2%;
+    }
+    .transfersdiv img{
+        margin-top:30%;
+    }
+    .slidercontainer{
+        right: 400px;
     }
 }
 @media(max-width:900px){
@@ -39,13 +54,23 @@
         right: 100px;
         top:50px
     }
+    .slidercontainer{
+        top: 400px;
+        right: 90%;
+    }
 }
 @media(max-width:1100px){
     .tripbookcontent{
-        height: 1400px;
+        height: 1100px;
     }
     .righttriptable{
-        top:40%;
+        top:50%;
+        left: 2%;
+        right: 2%;
+    }
+    .address{
+        height: auto;
+        top:50%;
         left: 2%;
         right: 2%;
     }
@@ -76,9 +101,22 @@
         overflow-x: hidden;
     }
 }
+@media(max-width:680px){
+    .forum{
+        position: relative;
+        right: 20%;
+        margin-left: 20%;
+    }
+}
 @media(max-height:600px){
     .signinbox{
         margin: auto;
+    }
+}
+@media(max-width:459px){
+    .slidercontainer{
+        top: 400px;
+        right: 100%;
     }
 }
 @media(max-width:400px){

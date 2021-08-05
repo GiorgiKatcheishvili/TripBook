@@ -13,17 +13,20 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-        <div class="booknav">
-            <a href="index.html"><img class="log1" src="image/logoi.svg" alt="logo"></a>
-            <nav class="bookli">
-                <ul>
-                    <li><a href="mytrips.html">my trips</a></li>
-                    <li><a href="transfer.html"><div class="bookpage">Tranfser</div></a></li>
-                    <li><a href="forum.html">Forum</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                </ul>
-            </nav>
+    <div class="booknav">
+        <a href="index.html"><img class="log1" src="image/logoi.svg" alt="logo"></a>
+        <nav class="bookli" id="navbar">
+            <ul>
+                <li><a href="mytrips.html">my trips</a></li>
+                <li><a href="transfer.html"><div class="bookpage">Transfer</div></a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-button" id="togglebutton">
+            <i class="fas fa-bars"></i>
         </div>
+    </div>
         <section>
             <div class="transfersdiv">
                 <form class="search" action="/action_page.php">
@@ -40,5 +43,6 @@
                 </div>
             </div>
         </section>
+        <script src="script.js"></script>
 </body>
 </html>
